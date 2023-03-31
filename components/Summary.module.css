@@ -1,0 +1,29 @@
+.summarycontainer {
+    height: 100%;
+ 
+   text-align: center;
+}
+.summarybox{
+    display: flex;
+    padding: 2rem;
+    padding-right: 4rem;
+    column-gap: 3rem;
+}
+
+.para{
+    padding-right: 15rem;
+}
+.summaryImage {
+    position: relative;
+    height: 46vh;
+
+    width: 119vw;
+}
+.button{
+    padding: .6rem 2rem;
+    margin-top: .5rem;
+    cursor: pointer;
+    text-align: center;
+
+}
+

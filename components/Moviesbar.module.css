@@ -1,0 +1,18 @@
+
+.moviebox{
+    width: 400px;
+    height: 355px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    transition:  all .6s ease-out;
+}
+.moviebox p{
+    width: 200px;
+   
+   
+}
+.moviebox:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

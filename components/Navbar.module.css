@@ -1,0 +1,44 @@
+.navbar {
+
+    display: flex;
+    margin: 0rem 3rem 1rem 3rem;
+    background-color: transparent;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    height: 100px;
+    align-items: center;
+    border-bottom: 1px solid #c6c9cc;
+    z-index: 1000;
+    position: relative;
+
+}
+
+.navname {
+    flex: 1;
+    cursor: pointer;
+    color: #15aabf;
+    font-size: 1.4rem;
+}
+
+.navmenu {
+    display: flex;
+    flex: 3;
+    column-gap: 3rem;
+    padding-left: 6rem;
+    cursor: pointer;
+
+}
+.navmenu h3{
+    font-size: 1.3rem;
+}
+
+.navmenu>h3:hover {
+    color: #15aabf;
+   
+}
+
+.navsearch {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
