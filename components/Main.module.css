@@ -1,8 +1,10 @@
 .detailscontainer{
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
     margin-bottom: 4rem;
     position: relative;
+    color: white;
+    
 }
 .detailscontainer h1{
 font-size: 2.6rem;
@@ -11,6 +13,8 @@ margin-bottom: 1.5rem;
 }
 .detailscontainer p{
     margin-bottom: 1rem;
+    font-size: larger;
+    color: white;
 }
 .button{
     padding: .6rem 2rem;
@@ -30,3 +34,22 @@ margin-bottom: 1.5rem;
     scrollbar-width: none;
     padding-left: 4rem;
   }
+
+  @media only screen and (max-width: 768px){
+    .backImage{
+       display: none;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .detailscontainer h1{
+        font-size: 1.4rem;
+
+    }
+
+    .detailscontainer p{
+        font-size: medium;
+    }
+}
+
+

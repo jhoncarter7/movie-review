@@ -23,8 +23,8 @@ function Main({ moviesData }) {
   return (
     <main>
 
-      <div>
-        <Image src={imagelink} alt="" fill style={{objectFit: "unset", opacity: ".5"}}/>
+      <div className={classes.backImage}>
+        <Image src={imagelink} alt="" fill style={{objectFit: "contain", opacity: ".5"}}/>
       </div>
       <section
         className={classes.detailscontainer}
@@ -42,7 +42,7 @@ function Main({ moviesData }) {
         {genres && <p>
           Genres : <span>{genres[0]} |{genres[1]}</span>
         </p>}
-        <button className={classes.button} onClick={()=> router.push("/summary")}>Summery</button>
+        <button className={classes.button} onClick={()=> router.push("/Summary")}>Summary</button>
       </section>
 
       <section className={classes.moviecontainers}>

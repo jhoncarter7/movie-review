@@ -1,12 +1,11 @@
 import classes from "./Navbar.module.css";
 
 import {MagnifyingGlassIcon} from "@heroicons/react/24/solid";
-// import Link from "next/link";
-import  { useRouter } from "next/router";
+import Link from "next/link";
 
 
 const  Navbar = ()  =>{
-const router = useRouter
+
 
   return (
     <nav className={classes.navbar}>
@@ -15,8 +14,8 @@ const router = useRouter
       </div>
 
       <div className={classes.navmenu}>
-       
-        <h3 onClick={() => router.push("/")} style={{color:"#15aabf"}}>Home</h3>
+       <Link href="/">
+        <h3  style={{color:"#15aabf"}}>Home</h3></Link>
        
         <h3>Tv shows</h3>
         <h3>Movies</h3>

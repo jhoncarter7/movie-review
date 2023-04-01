@@ -1,0 +1,34 @@
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+
+    backdrop-filter: blur(2.5px);
+
+}
+.popup{
+    width: 16%;
+    height: 7%;
+   background-color: black;
+   position: relative;
+   margin: 0 auto;
+   top: 40%;
+   border-radius: 10px;
+}
+.popup p{
+    padding: .6rem .9rem;
+}
+
+.button{
+    position: absolute;
+    right: 4px;  border-radius: 10px;
+    top: 6px;
+    width: 19px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -2,4 +2,11 @@
   height: 100%;
   width: 100%;
      position: relative;
+     background-image: linear-gradient(to right top, #6a5762, #554854, #423a45, #2f2c35, #1f1f26, #242731, #29303b, #2c3a46, #42606f, #588a98, #72b6bd, #92e4df);
+}
+
+@media only screen and (max-width: 600px){
+  /* .maiContener{
+    
+  } */
 }
