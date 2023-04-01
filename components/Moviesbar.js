@@ -7,7 +7,7 @@ function Moviesbar(props) {
   const { Name, movieImage, id, language, premiered, rating, genres, summary } = props;
   const dispatch = useDispatch();
 
-  console.log("jjoo");
+ 
   const sendingToslice = () => {
     dispatch(
       movieReducer.singleData({
@@ -21,7 +21,7 @@ function Moviesbar(props) {
         summary
       })
     );
-    console.log("justclick");
+ 
   };
   return (
     <div className={classes.moviebox}>

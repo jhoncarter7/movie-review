@@ -16,11 +16,19 @@ const [openForm, setOpenForm] = useState(false)
     imagelink = movieImage.original;
   }
 // Its use to remove tags from string
+  // function removeTags(str) {
+  //   if ((str===null) || (str===''))
+  //     return false;
+  //   else
+  //     str = str.toString();
+  //   return str.replace( /(<([^>]+)>)/ig, '');
+  // }
+
   function removeTags(str) {
-    if ((str===null) || (str===''))
-      return false;
-    else
-      str = str.toString();
+    if (!str || str === '') {
+      return '';
+    }
+    str = str.toString();
     return str.replace( /(<([^>]+)>)/ig, '');
   }
   

@@ -14,8 +14,8 @@ const  Navbar = ()  =>{
       </div>
 
       <div className={classes.navmenu}>
-       <Link href="/">
-        <h3  style={{color:"#15aabf"}}>Home</h3></Link>
+    
+        <h3  style={{color:"#15aabf"}}>Home</h3>
        
         <h3>Tv shows</h3>
         <h3>Movies</h3>
