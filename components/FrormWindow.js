@@ -23,7 +23,7 @@ function FrormWindow({onclose, Name}) {
     <section className={classes.overlay}>
       <div className={classes.modelconatiner}>
         <p>{Name}</p>
-        <form className={classes.modelform} >
+        <form className={classes.modelform} onSubmit= {localstoragehandle}>
           <label htmlFor="name">Name</label>
           <input type="name" id="name" placeholder="Your name" ref={nameRef} required />
           <label htmlFor="email">Email</label>
@@ -40,7 +40,7 @@ function FrormWindow({onclose, Name}) {
           />
           <div className={classes.buttoncontainer}>
           <button className={classes.button} onClick={onclose}>Cancel</button>
-          <button className={classes.button} type="submit" onClick={localstoragehandle} >confirm booking</button>
+          <button className={classes.button} type="submit"  >confirm booking</button>
           </div>
         </form>
       </div>
