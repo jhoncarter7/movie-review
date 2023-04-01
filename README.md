@@ -1,4 +1,4 @@
-<h1>MoviewTrunc</h1>
+<h1>MovieTrunc</h1>
 
 <P>This is a simple movie site which is fullyresponsive  built  using Next.js, fetch API, Redux Toolkit, and css.
 Users can see the rating and realeased date  etc. In its second page user can see summery of movie and book the ticket 
